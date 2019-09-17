@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b913ecc2-d30e-4851-9113-15d136dcd0d9" name="Default Changelist" comment="" />
+    <list default="true" id="b913ecc2-d30e-4851-9113-15d136dcd0d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InputE.javamm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Input.javamm" beforeDir="false" afterPath="$PROJECT_DIR$/InputC.javamm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabalho.g4" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Codigos/Leitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codigos/Leitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Codigos/Simb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codigos/Simb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Codigos/TabelaDeSimbolos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codigos/TabelaDeSimbolos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Codigos/Trabalho.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Codigos/Trabalho.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Codigos/Trabalho.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Codigos/Leitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Codigos/Leitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Codigos/Simb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Codigos/Simb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Codigos/TabelaDeSimbolos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Codigos/TabelaDeSimbolos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Codigos/Trabalho.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Codigos/Trabalho.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +31,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1QkEk4fvCCEf8NEJQTSEK4u9GZm" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -27,13 +47,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Codigos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/Codigos" />
       <recent name="C:\Users\gabri\Documents\Quarto Periodo\Compiladores\trabalhoCompiladores\src\main\java\Codigos" />
       <recent name="C:\Users\aluno\IdeaProjects\trabalhoCompiladores\src\main\java\Codigos" />
       <recent name="C:\Users\aluno\IdeaProjects\trabalhoCompiladores\src\main\java" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Codigos" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -51,7 +75,8 @@
   <component name="RunManager">
     <configuration name="Leitor" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Codigos.Leitor" />
-      <module name="tb" />
+      <module name="trabalhoCompiladores" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;$PROJECT_DIR$/InputC.javamm&quot;" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Codigos.*" />
@@ -78,10 +103,25 @@
       <workItem from="1568387769759" duration="2195000" />
       <workItem from="1568410275873" duration="62000" />
       <workItem from="1568410645329" duration="1328000" />
+      <workItem from="1568726985286" duration="372000" />
+      <workItem from="1568727370556" duration="5719000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

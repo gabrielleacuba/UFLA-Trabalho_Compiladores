@@ -30,6 +30,31 @@ public class TabelaDeSimbolos {
         return (Simb) getTabela().get(id);
     }
 
+    public static Simb getSimbolo(Simb simb){
+        HashMap tabela = getTabela();
+        Set<Integer> chaves = tabela.keySet();
+        Simb retorno = null;
+        for (Integer i : chaves) {
+            if (((Simb)tabela.get(i)) == simb) {
+                retorno = (Simb) tabela.get(i);
+            }
+        }
+        return retorno;
+    }
+
+    public static Simb getSimbolo(String nome){
+        HashMap tabela = getTabela();
+        Set<Integer> chaves = tabela.keySet();
+        Simb retorno = null;
+        for (Integer i : chaves) {
+            if (((Simb)tabela.get(i)).getNome() == nome) {
+                retorno = (Simb) tabela.get(i);
+            }
+        }
+        return retorno;
+    }
+
+
     public static String string() {
         String s = new String();
         Set<Integer> keys = getTabela().keySet();

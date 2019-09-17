@@ -1,0 +1,84 @@
+package javaapplication4;
+
+import org.antlr.v4.runtime.Lexer;
+
+
+public class JavaApplication4 {
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+        System.out.println("Hello world");
+
+    }
+
+}
+
+
+public abstract class TesteAbstract {
+
+    public abstract void metodo();
+
+    private int a;
+    protected int n;
+
+    public int metodo2() {
+        boolean variavelBoleana = true;
+        variavelBoleana = false;
+
+        char aux = 'c';
+        if (variavelBolean) {
+            System.out.println(aux);
+        } else {
+            System.out.println("falso\n");
+        }
+
+        TesteExtends te = new TesteExtends();
+        if (te instanceof TesteExtends) {
+            int i = 0;
+            while (i <= 10) {
+                System.out.println("falso");
+                i++;
+            }
+        }
+        te = null;
+
+        this.a = 0;
+        this.n = 5;
+        if (this.n == 5 && this.n > 10) {
+            // ||
+        }
+
+        if (this.a <= 50 && this.n <= 50) {
+
+        }
+
+        variavelBoleana = !variavelBoleana;
+
+        this.a = this.n + this.a - this.a * this.n;
+        this.a--;
+        this.a += 5;
+
+        int vetor[] = new int[10];
+
+        //testando
+
+
+
+
+
+        return this.a;
+    }
+
+}
+
+public class TesteExtends extends TesteAbstract {
+
+    public void metodos() {
+        int x = super.metodo2();
+    }
+
+    public void metodoVirgula (int a, float x) {
+
+    }
+
+}

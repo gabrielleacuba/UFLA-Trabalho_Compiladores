@@ -27,7 +27,7 @@ VOID: 'void';
 WHILE: 'while';
 
 //Operadores
-ATIBUICAO: '=';
+ATRIBUIACO: '=';
 COMPARACAO: '==';
 MAIOR: '>';
 MAISUM: '++';
@@ -52,17 +52,15 @@ FPARENTESES: ')';
 PONTOEVIRGULA: ';';
 
 //Literal
-LETRA:'a'..'z'|'A'..'Z';
-DIGITO:'0'..'9';
 ESC: '\\'('n'|'r'|'t'|'b'|'f'|'\''|'"'|'\\');
-INTLITERAL: '0'|DIGITO DIGITO*;
+INTLITERAL: '0'|('0'..'9') ('0'..'9')*;
 CHARLITERAL: '\''(ESC|~('\''|'\\'|'\n'|'\r'))'\'';
-STRINGLITERAL: '"'(ESC|~('"'|'\\'|'\n'|'\r'))'"';
+STRINGLITERAL: '"'(ESC|~('"'|'\\'|'\n'|'\r'))*'"';
 
 //Adicionais
 LINECOMMENT: '//'~[\r\n]* -> skip;
 WHITESPACE: ('\t'|' '|'\r'|'\n'|'\u000C')+ -> skip;
 
 //ID
-ID: (LETRA|'_'|'$')(LETRA|DIGITO|'_'|'$')*;
+ID: ('a'..'z'|'A'..'Z'|'_'|'$')('a'..'z'|'A'..'Z'|('0'..'9')|'_'|'$')*;
 

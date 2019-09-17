@@ -1,6 +1,6 @@
 package Codigos;
 
-public class Simb {
+public class Simb implements Comparable<Simb> {
     private Integer id;
     private String nome;
     private int linha;
@@ -39,5 +39,15 @@ public class Simb {
     @Override
     public String toString() {
         return nome +  ", " + linha + ", " + coluna;
+    }
+
+    public int compareTo(Simb s) {
+        if ( this.getNome() == s.getNome()
+                && this.getId() == s.getId()
+                && this.getLinha() == s.getLinha()
+                && this.getLinha() == s.getColuna()) {
+            return 0;
+        }
+        return -1;
     }
 }
