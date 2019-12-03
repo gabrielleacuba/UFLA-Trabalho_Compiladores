@@ -1,4 +1,4 @@
-lexer grammar Trabalho;
+grammar Trabalho;
 
 //Palavras reservadas
 ABSTRACT: 'abstract';
