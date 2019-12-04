@@ -1,6 +1,4 @@
-package Codigos;
-
-// Generated from /home/aluno/Área de Trabalho/Compilador/TrabalhoCompiladores1/TrabalhoParser.g4 by ANTLR 4.7.2
+// Generated from /home/aluno/Área de Trabalho/TrabalhoCompiladores1/TrabalhoLexer.g4 by ANTLR 4.7.2
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
@@ -11,7 +9,7 @@ import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.misc.*;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
-public class Trabalho extends Lexer {
+public class TrabalhoLexer extends Lexer {
 	static { RuntimeMetaData.checkVersion("4.7.2", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
@@ -106,13 +104,13 @@ public class Trabalho extends Lexer {
 	}
 
 
-	public Trabalho(CharStream input) {
+	public TrabalhoLexer(CharStream input) {
 		super(input);
 		_interp = new LexerATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);
 	}
 
 	@Override
-	public String getGrammarFileName() { return "TrabalhoParser.g4"; }
+	public String getGrammarFileName() { return "TrabalhoLexer.g4"; }
 
 	@Override
 	public String[] getRuleNames() { return ruleNames; }
