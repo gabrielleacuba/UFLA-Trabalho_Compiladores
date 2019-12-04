@@ -5,6 +5,7 @@ public class JavaApplication4 {
 
     @overrite
     public static void main(String[] args) {
+        int vetor[];
         // TODO code application logic here
         System.out.println("Hello world");
         if (true || false) {

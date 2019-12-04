@@ -10,13 +10,13 @@ import java.util.List;
 
 
 
-public class Leitor {
+public class LeitorParser {
 
     public static void main(String[] args){
         try {
 
 
-            String caminhoDoArquivo = "/home/aluno/Área de Trabalho/TrabalhoCompiladores1/InputC.javamm";
+            String caminhoDoArquivo = "/home/aluno/Área de Trabalho/TrabalhoCompiladores1/InputE.javamm";
             ANTLRInputStream ais = new ANTLRFileStream(caminhoDoArquivo) ;
             TrabalhoParserLexer javamm = new TrabalhoParserLexer(ais);
 
@@ -26,29 +26,6 @@ public class Leitor {
 
             parser.compilationUnit();
 
-
-
-                    /*
-            List<? extends Token> tokens = javamm.getAllTokens();
-
-            for (Token t : tokens) {
-
-                System.out.print(t.getText());
-                System.out.print("\t");
-                System.out.print(t.getType());
-                System.out.println();
-
-                if (t.getType() == Trabalho.ID) {
-                    TabelaDeSimbolos.inserindo(t.getText(), t.getLine(), t.getCharPositionInLine());
-                }
-            }
-
-
-             System.out.println(TabelaDeSimbolos.string());
-
-
-
-            */
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
