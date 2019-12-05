@@ -74,8 +74,8 @@
   </component>
   <component name="RunManager">
     <configuration name="Leitor" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codigos.Leitor" />
-      <module name="trabalhoCompiladores" />
+      <option name="MAIN_CLASS_NAME" value="LeitorParser" />
+      <module name="tb" />
       <option name="PROGRAM_PARAMETERS" value="&quot;$PROJECT_DIR$/InputC.javamm&quot;" />
       <extension name="coverage">
         <pattern>
@@ -105,6 +105,8 @@
       <workItem from="1568410645329" duration="1328000" />
       <workItem from="1568726985286" duration="372000" />
       <workItem from="1568727370556" duration="5719000" />
+      <workItem from="1575480788691" duration="1366000" />
+      <workItem from="1575482431992" duration="2282000" />
     </task>
     <servers />
   </component>

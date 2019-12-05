@@ -55,11 +55,6 @@ public class TesteAbstract {
         vetor = new int[10];
 
         //testando
-
-
-
-
-
         return this.a;
     }
 

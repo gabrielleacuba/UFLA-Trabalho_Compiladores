@@ -15,8 +15,7 @@ public class LeitorParser {
     public static void main(String[] args){
         try {
 
-
-            String caminhoDoArquivo = "/home/aluno/Área de Trabalho/TrabalhoCompiladores1/InputE.javamm";
+            String caminhoDoArquivo = "C:\\Users\\luizc\\Documents\\GitHub\\Compiladores\\InputE.javamm";
             ANTLRInputStream ais = new ANTLRFileStream(caminhoDoArquivo) ;
             TrabalhoParserLexer javamm = new TrabalhoParserLexer(ais);
 
@@ -24,7 +23,19 @@ public class LeitorParser {
 
             TrabalhoParserParser parser = new TrabalhoParserParser(cts);
 
-            parser.compilationUnit();
+            TrabalhoParserParser.CompilationUnitContext c = parser.compilationUnit();
+
+
+            ANTLRInputStream ais2 = new ANTLRFileStream(caminhoDoArquivo) ;
+            TrabalhoParserLexer javamm2 = new TrabalhoParserLexer(ais2);
+            List<? extends Token> tokens = javamm.getAllTokens();
+
+            for (Token t : tokens) {
+                if (t.getType() == TrabalhoParserLexer.ID) {
+                    TabelaDeSimbolos.inserindo(t.getText(), t.getLine(), t.getCharPositionInLine());
+                }
+            }
+
 
         } catch (IOException e) {
             System.out.println(e.getMessage());
